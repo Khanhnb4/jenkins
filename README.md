@@ -43,10 +43,10 @@ alias jenkins-cli='java -jar ~/bin/jenkins-cli.jar -s ${JENKINS_URL}'
 jenkins-cli
    ```
 
-# add the auth file
+### Add the auth file
 alias jenkins-cli='java -jar ~/bin/jenkins-cli.jar -s ${JENKINS_URL}' -auth @/Users/mark.honomichl/.jenkins-cli
 
-# Single-quotes and double-quotes
+### Single-quotes and double-quotes
 def name = 'Jenkins'
 echo "Hello, ${name}!"  // Output: Hello, Jenkins!
 echo 'Hello, ${name}!'  // Output: Hello, ${name}!
